@@ -63,7 +63,7 @@ li.nav-item {
     padding-top: 40px;
 	height: 370px;
 	min-width: 400px;
-	background-image: url('../images/background.png');
+	background-image: url('../test/images/background.png');
 	background-position: center top;
 	background-size: cover;
 	background-repeat: no-repeat;
