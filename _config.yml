@@ -1,0 +1,25 @@
+title: GeyserMC Blog
+description: >- # this means to ignore newlines until "baseurl:"
+  Geyser is a bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition which allows you to 
+  join Minecraft Java servers with Bedrock Edition servers to enable true cross-platform.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.geysermc.org" # the base hostname & protocol for your site, e.g. http://example.cm
+twitter_username: geyser_mc
+github_username:  GeyserMC
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Show excerpts on the homepage
+show_excerpts: true
+
+collections:
+  css:
+    output: false
+    permalink: "/css"
+  images:
+    output: false
+    permalink: "/images"
